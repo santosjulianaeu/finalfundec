@@ -1,0 +1,581 @@
+import tkinter as tk
+from tkinter import PhotoImage
+import webbrowser
+
+
+def login():
+    login = usuario_entry.get()
+    print(login)
+    if login == "123456789":  # Comparação com string
+        print('logado')
+
+def botao_um():
+    global label_img2
+    def botao_dois():
+        def botao_tres():
+            def botao_cinco():  
+                def botao_seis():
+                    def botao_sete():                         
+                        def botao_oito(): 
+                            janela_seis.destroy()
+                            janela_sete = tk.Tk()
+                            janela_sete.title('Triagem')
+                            janela_sete.geometry('300x653')
+                            
+                            background_sete = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\setimo.png')
+                            label_img2i = tk.Label(janela_sete, image=background_sete)
+                            label_img2i.image = background_sete
+                            label_img2i.place(x=0, y=0, relwidth=1, relheight=1)
+                            bt7=tk.Button(janela_sete, command=botao_oito)
+                            bt7.place(x=152, y = 238)
+                                                        
+                            janela_sete.mainloop()                        
+                            def botao_dez():  
+                                janela_sete.destroy()
+                                janela_oito = tk.Tk()
+                                janela_oito.title('Beneficios')
+                                janela_oito.geometry('305x657')
+                                background_oito = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\oitavo.png')
+
+                                label_img2o = tk.Label(janela_oito, image=background_oito)
+                                label_img2o.image = background_oito
+                                label_img2o.place(x=0, y=0, relwidth=1, relheight=1)
+                                bt8=tk.Button(janela_oito, command=botao_dez)
+                                bt8.place(x=152, y = 238)
+
+                                janela_oito.mainloop()
+                        
+                        janela_seis.destroy()
+                        janela_sete = tk.Tk()
+                        janela_sete.title('Triagem')
+                        janela_sete.geometry('300x653')
+                        
+                        background_sete = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\setimo.png')
+                        label_img2i = tk.Label(janela_sete, image=background_sete)
+                        label_img2i.image = background_sete
+                        label_img2i.place(x=0, y=0, relwidth=1, relheight=1)
+                        bt7=tk.Button(janela_sete, command=botao_oito)
+                        bt7.place(x=152, y = 238)
+                                                    
+                        janela_sete.mainloop()
+                    janela_cinco.destroy()
+                    janela_seis = tk.Tk()
+                    janela_seis.title('Perfil do cidadão')
+                    janela_seis.geometry('309x652')
+
+                    background_seis = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\sexto.png')
+                    label_img24 = tk.Label(janela_seis, image=background_seis)
+                    label_img24.image = background_seis
+                    label_img24.place(x=0, y=0, relwidth=1, relheight=1)
+                    bt6=tk.Button(janela_seis, command=botao_sete)
+                    bt6.place(x=50, y = 50)
+
+                    janela_seis.mainloop()
+
+                janela_quatro.destroy()
+                janela_cinco = tk.Tk()
+                janela_cinco.title('Assistência Social')
+                janela_cinco.geometry('306x658')
+
+                background_cinco = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\quinto.png')
+                label_img23 = tk.Label(janela_cinco, image=background_cinco)
+                label_img23.image = background_cinco
+                label_img23.place(x=0, y=0, relwidth=1, relheight=1)
+                bt5=tk.Button(janela_cinco, command=botao_seis)
+                bt5.place(x=50, y = 50)
+
+                janela_cinco.mainloop() 
+
+                def botao_seis():
+                    janela_cinco.destroy()
+                    janela_seis = tk.Tk()
+                    janela_seis.title('Perfil do cidadão')
+                    janela_seis.geometry('309x652')
+
+                    background_seis = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\sexto.png')
+                    label_img2 = tk.Label(janela_seis, image=background_seis)
+                    label_img2.image = background_seis
+                    label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+                    bt6=tk.Button(janela_seis, command=botao_seis)
+                    bt6.place(x=50, y = 50)
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              
+                                         
+
+            #janela_seis.mainloop()
+            janela_tres.destroy()
+            janela_quatro = tk.Tk()
+            janela_quatro.title('Inicial - AS')
+            janela_quatro.geometry('312x660')
+            background_quatro = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\quarto.png')
+            label_img = tk.Label(janela_quatro, image = background_quatro)
+            label_img.place( x = 0, y = 0, relwidth = 1, relheight = 1)
+            bt4 = tk.Button(janela_quatro, command=botao_cinco)
+            bt4.place(x= 50, y= 50)
+
+            janela_quatro.mainloop()
+
+        def botao_quatro():
+            janela_tres.destroy()
+            janela_nove = tk.Tk()
+            janela_nove.title('Abertura - Saúde')
+            janela_nove.geometry('322x668')
+            
+            
+            background_nove = PhotoImage(file= r'C:\Users\juuli\OneDrive\Área de Trabalho\nono.png')
+            label_img21 = tk.Label(janela_nove, image=background_nove)
+            label_img21.image = background_nove
+            label_img21.place(x=0, y=0, relwidth=1, relheight=1)
+            #bt9=tk.Button(janela_um,command= botao_dez)
+            #bt9.place(x=50, y = 50)
+            #play = PhotoImage(file= r'C:\Users\juuli\OneDrive\Área de Trabalho\play.png')
+
+            #bt_play = tk.Button(janela_quatro,  command=lambda: webbrowser.open('https://portal.fiocruz.br/video/um-desenho-sobre-o-sus'))
+            #bt_play.place(x = 50, y = 50)
+
+            #button = Button(frame, text="Abrir URL", command=lambda: webbrowser.open('SUA URL AQUI'))
+            janela_nove.mainloop()
+
+
+        janela_dois.destroy()
+        janela_tres = tk.Tk()
+        janela_tres.title('Menu')
+        janela_tres.geometry('308x626')
+        background_tres = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\terceiro.png')
+        menu_um = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\menu1.png')
+        menu_dois = PhotoImage(file = r"C:\Users\juuli\OneDrive\Área de Trabalho\menu2.png")
+
+        label_img = tk.Label(janela_tres, image = background_tres)
+        label_img.place( x = 0, y = 0, relwidth = 1, relheight = 1)
+
+        bt_menu_um = tk.Button(janela_tres, command= botao_tres)
+        bt_menu_um.place(x= 50, y= 100) #assistencia social
+
+        bt_menu_dois = tk.Button(janela_tres, command = botao_quatro)
+        bt_menu_dois.place(x= 50, y= 150) # saude
+
+       
+
+        janela_tres.mainloop()
+
+        
+        def botao_seis():
+            janela_cinco.destroy()
+            janela_seis = tk.Tk()
+            janela_seis.title('Perfil do cidadão')
+            janela_seis.geometry('309x652')
+
+            background_seis = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\sexto.png')
+            label_img2 = tk.Label(janela_um, image=background_seis)
+            label_img2.image = background_seis
+            label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+            bt6=tk.Button(janela_um,command= botao_seis)
+            bt6.place(x=152, y = 238)
+
+            janela_seis.mainloop()
+
+        def botao_sete():
+            
+            janela_sete = tk.Tk()
+            janela_sete.title('Triagem')
+            janela_sete.geometry('300x653')
+            background_sete = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\setimo.png')
+
+            label_img2 = tk.Label(janela_um, image=background_sete)
+            label_img2.image = background_sete
+            #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+            bt7=tk.Button(janela_um,command= botao_oito)
+            #bt7.place(x=152, y = 238)
+            
+            #janela_sete.mainloop()
+
+     
+
+
+        def botão_nove():
+            
+            janela_dez = tk.Tk()
+            janela_dez.title('Saúde')
+            janela_dez.geometry('305x660')
+            background_dez = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decima.png')
+
+            label_img2 = tk.Label(janela_um, image=background_dez)
+            label_img2.image = background_dez
+            #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+            bt10=tk.Button(janela_um,command= botao_dez)
+            #bt10.place(x=154, y = 236)
+
+
+            menu_seis = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\especi.png')
+            menu_sete = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\info.png')
+            menu_oito = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\consul.png') 
+
+            bt_menu_seis = tk.Button(janela_dez, image = menu_tres)
+            bt_menu_seis.place(x= 261, y= 685) # especialidades
+
+            bt_menu_sete = tk.Button(janela_dez, image = menu_quatro)
+            bt_menu_sete.place(x= 261, y= 957) # informativo
+
+            bt_menu_oito = tk.Button(janela_dez, image = menu_cinco)
+            bt_menu_oito.place(x= 261, y= 1209) # consultas
+
+            #janela_dez.mainloop()
+
+        def botao_dez():
+            janela_dez.destroy()
+            janela_onze = tk.Tk()
+            janela_onze.title('Especialidades')
+            janela_onze.geometry('310x658')
+            background_onze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimaprimeira.png')
+
+            label_img2 = tk.Label(janela_um, image=background_onze)
+            label_img2.image = background_onze
+            #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+            bt11=tk.Button(janela_um,command= botao_onze)
+            #bt11.place(x=152, y = 238)
+
+            #janela_onze.mainloop()
+
+        def botao_onze():
+            janela_onze.destroy()
+            janela_doze = tk.Tk()
+            janela_doze.title('Informativo')
+            janela_doze.geometry('306x652')
+            background_doze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimasegunda.png')
+
+            
+            label_img2 = tk.Label(janela_um, image=background_doze)
+            label_img2.image = background_onze
+            #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+            bt12=tk.Button(janela_um,command= botao_doze)
+          # bt12.place(x=152, y = 238)
+
+            #janela_doze.mainloop()
+
+
+
+
+
+
+
+        def botao_doze():
+            janela_doze.destroy()
+
+            janela_treze = tk.Tk()
+            janela_treze.title('Consultas')
+            janela_treze.geometry('302x644')
+            background_treze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimaterceira.png')
+
+            
+            label_img2 = tk.Label(janela_um, image=background_treze)
+            label_img2.image = background_treze
+          # label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+            bt13=tk.Button(janela_um,command= botao_treze)
+            #bt13.place(x=152, y = 238)
+
+
+        #janela_treze.mainloop()
+
+
+
+
+
+
+                #menu_tres = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\cidadao.png')
+                #menu_quatro = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\tria.png')
+                #menu_cinco = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\bene.png')
+
+                #bt_menu_tres = tk.Button(janela_cinco)
+                #bt_menu_tres.place(x= 261, y= 681) # perfil 
+
+                #bt_menu_quatro = tk.Button(janela_cinco)
+                #bt_menu_quatro.place(x= 261, y= 957) # triagem
+
+                #bt_menu_cinco = tk.Button(janela_cinco)
+                #bt_menu_cinco.place(x= 261, y= 1213) # ajustar medidas
+    
+
+
+
+
+
+    def botao_nove():
+        label_img2.destroy()
+    def botao_dez():
+        label_img2.destroy()
+    def botao_onze():
+        label_img2.destroy()
+    def botao_doze():
+        label_img2.destroy
+    def botao_treze():
+        label_img2.destroy
+        label_img.destroy()
+        bt.destroy()
+    janela_um.destroy()
+    janela_dois = tk.Tk() #janela 2
+    janela_dois.title('Login') #titulo da janela
+    janela_dois.geometry('313x634')
+    background_dois = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\segundo.png') #mudar nas próximas edições
+    start = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\enter.png') #mudar nas próximas edições
+
+    label_img = tk.Label(janela_dois, image = background_dois)
+    label_img.place( x = 0, y = 0, relwidth = 1, relheight = 1)
+
+    usuario_entry = tk.Entry(janela_dois)
+    usuario_entry.place(x = 118 , y = 260) # ajustar medidas
+
+    bt_login = tk.Button(janela_dois, command=botao_dois)
+    bt_login.place(x= 50, y= 50) # ajustar medidas
+
+    janela_dois.mainloop()
+
+    background_dois = PhotoImage(file=r'C:\Users\juuli\OneDrive\Área de Trabalho\segundo.png')
+    label_img2 = tk.Label(janela_um, image=background_dois)
+    label_img2.image = background_dois  # Mantenha uma referência à imagem
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt2= tk.Button(janela_um, command=botao_dois)
+    #bt2.place(x=155, y=363)
+    
+    background_tres = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\terceiro.png')
+    label_img2 = tk.Label(janela_um, image=background_tres)
+    label_img2.image = background_tres  # Mantenha uma referência à imagem
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt3= tk.Button (janela_um, command=botao_tres)
+    #bt3.place(x=77, y = 277)
+    
+    background_quatro = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\quarto.png')
+    label_img2 = tk.Label(janela_um, image=background_quatro)
+    label_img2.image = background_quatro
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt4=tk.Button(janela_um,command= botao_quatro)
+    #bt4.place(x=166, y = 547)
+    
+    background_cinco = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\quinto.png')
+    label_img2 = tk.Label(janela_um, image=background_cinco)
+    label_img2.image = background_cinco
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt5=tk.Button(janela_um,command= botao_cinco)
+    #bt5.place(x=153, y = 241)
+
+    background_seis = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\sexto.png')
+    label_img2 = tk.Label(janela_um, image=background_seis)
+    label_img2.image = background_seis
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt6=tk.Button(janela_um,command= botao_seis)
+    #bt6.place(x=152, y = 238)
+    
+    background_sete = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\setimo.png')
+    label_img2 = tk.Label(janela_um, image=background_sete)
+    label_img2.image = background_sete
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt7=tk.Button(janela_um,command= botao_sete)
+    #bt7.place(x=152, y = 238)
+    
+    background_oito = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\oitavo.png')
+    label_img2 = tk.Label(janela_um, image=background_oito)
+    label_img2.image = background_oito
+    label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt8=tk.Button(janela_um,command= botao_oito)
+    bt8.place(x=152, y = 238)
+
+
+    background_nove = PhotoImage(file= r'C:\Users\juuli\OneDrive\Área de Trabalho\nono.png')
+    label_img2 = tk.Label(janela_um, image=background_nove)
+    label_img2.image = background_nove
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt9=tk.Button(janela_um,command= botao_nove)
+    #bt9.place(x=167, y = 577)
+
+    background_dez = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decima.png')
+    label_img2 = tk.Label(janela_um, image=background_dez)
+    label_img2.image = background_dez
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt10=tk.Button(janela_um,command= botao_dez)
+    #bt10.place(x=154, y = 236)
+
+    background_onze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimaprimeira.png')
+    label_img2 = tk.Label(janela_um, image=background_onze)
+    label_img2.image = background_onze
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt11=tk.Button(janela_um,command= botao_onze)
+    #bt11.place(x=152, y = 238)
+
+    background_doze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimasegunda.png')
+    label_img2 = tk.Label(janela_um, image=background_doze)
+    label_img2.image = background_onze
+    #label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt12=tk.Button(janela_um,command= botao_doze)
+   # bt12.place(x=152, y = 238)
+
+    background_treze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimaterceira.png')
+    label_img2 = tk.Label(janela_um, image=background_treze)
+    label_img2.image = background_treze
+   # label_img2.place(x=0, y=0, relwidth=1, relheight=1)
+    bt13=tk.Button(janela_um,command= botao_treze)
+    #bt13.place(x=152, y = 238)
+
+
+janela_um = tk.Tk()
+janela_um.title('Inicio')
+janela_um.geometry('313x641')
+background_um = PhotoImage(file=r'C:\Users\juuli\OneDrive\Imagens\primeiro.png')
+label_img = tk.Label(janela_um, image=background_um)
+label_img.image = background_um  # Mantenha uma referência à imagem
+label_img.place(x=0, y=0, relwidth=1, relheight=1)
+
+bt = tk.Button(janela_um, command=botao_um)
+bt.place(x=160, y=554)
+
+janela_um.mainloop()
+
+janela_dois = tk.Tk() #janela 2
+janela_dois.title('Login') #titulo da janela
+janela_dois.geometry('313x634')
+background_dois = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\segundo.png') #mudar nas próximas edições
+start = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\enter.png') #mudar nas próximas edições
+
+label_img = tk.Label(janela_dois, image = background_dois)
+label_img.place( x = 0, y = 0, relwidth = 1, relheight = 1)
+
+usuario_entry = tk.Entry(janela_dois, command= login)
+usuario_entry.place(x = 118 , y = 260) # ajustar medidas
+
+bt_login = tk.Button(janela_dois, image = start,)
+bt_login.place(x= 160, y= 363) # ajustar medidas
+
+#janela_dois.mainloop()
+
+janela_tres = tk.Tk()
+janela_tres.title('Menu')
+janela_tres.geometry('308x626')
+background_tres = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\terceiro.png')
+menu_um = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\menu1')
+menu_dois = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\f50392dd-b990-4f51-9df5-089636df9f3f')
+
+label_img = tk.Label(janela_tres, image = background_tres)
+label_img.place( x = 0, y = 0, relwidth = 1, relheight = 1)
+
+bt_menu_um = tk.Button(janela_tres, image = menu_um)
+bt_menu_um.place(x= 241, y= 825) #assistencia social
+
+bt_menu_dois = tk.Button(janela_tres, image = menu_dois)
+bt_menu_dois.place(x= 281, y= 1177) # saude
+
+#janela_tres.mainloop()
+
+janela_quatro = tk.Tk()
+janela_quatro.title('Inicial - AS')
+janela_quatro.geometry('312x660')
+background_quatro = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\quarto.png')
+
+#janela_quatro.mainloop()
+
+janela_cinco = tk.Tk()
+janela_cinco.title('Assistência Social')
+janela_cinco.geometry('306x658')
+background_cinco = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\quinto.png')
+menu_tres = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\cidadao.png')
+menu_quatro = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\tria.png')
+menu_cinco = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\bene.png')
+
+bt_menu_tres = tk.Button(janela_cinco, image = menu_tres)
+bt_menu_tres.place(x= 261, y= 681) # perfil 
+
+bt_menu_quatro = tk.Button(janela_cinco, image = menu_quatro)
+bt_menu_quatro.place(x= 261, y= 957) # triagem
+
+bt_menu_cinco = tk.Button(janela_cinco, image = menu_cinco)
+bt_menu_cinco.place(x= 261, y= 1213) # ajustar medidas
+
+#janela_cinco.mainloop()
+
+janela_seis = tk.Tk()
+janela_seis.title('Perfil do cidadão')
+janela_seis.geometry('309x652')
+background_seis = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\sexto.png')
+
+#janela_seis.mainloop()
+
+janela_sete = tk.Tk()
+janela_sete.title('Triagem')
+janela_sete.geometry('300x653')
+background_sete = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\setimo.png')
+
+#janela_sete.mainloop()
+
+janela_oito = tk.Tk()
+janela_oito.title('Beneficios')
+janela_oito.geometry('305x657')
+background_oito = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\oitavo.png')
+
+#janela_oito.mainloop()
+
+janela_nove = tk.Tk()
+janela_nove.title('Abertura - Saúde')
+janela_nove.geometry('322x668')
+background_nove = PhotoImage(file= r'C:\Users\juuli\OneDrive\Área de Trabalho\nono.png')
+play = PhotoImage(file= r'C:\Users\juuli\OneDrive\Área de Trabalho\play.png')
+
+bt_play = tk.Button(janela_quatro, image = play, command=lambda: webbrowser.open('https://portal.fiocruz.br/video/um-desenho-sobre-o-sus'))
+bt_play.place(x = 530, y = 1732)
+
+#button = Button(frame, text="Abrir URL", command=lambda: webbrowser.open('SUA URL AQUI'))
+#janela_nove.mainloop()
+
+janela_dez = tk.Tk()
+janela_dez.title('Saúde')
+janela_dez.geometry('305x660')
+background_dez = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decima.png')
+menu_seis = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\especi.png')
+menu_sete = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\info.png')
+menu_oito = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\consul.png') 
+
+bt_menu_seis = tk.Button(janela_dez, image = menu_tres)
+bt_menu_seis.place(x= 261, y= 685) # especialidades
+
+bt_menu_sete = tk.Button(janela_dez, image = menu_quatro)
+bt_menu_sete.place(x= 261, y= 957) # informativo
+
+bt_menu_oito = tk.Button(janela_dez, image = menu_cinco)
+bt_menu_oito.place(x= 261, y= 1209) # consultas
+
+#janela_dez.mainloop()
+
+janela_onze = tk.Tk()
+janela_onze.title('Especialidades')
+janela_onze.geometry('310x658')
+background_onze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimaprimeira.png')
+
+#janela_onze.mainloop()
+
+janela_doze = tk.Tk()
+janela_doze.title('Informativo')
+janela_doze.geometry('306x652')
+background_doze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimasegunda.png')
+
+#janela_doze.mainloop()
+
+janela_treze = tk.Tk()
+janela_treze.title('Consultas')
+janela_treze.geometry('302x644')
+background_treze = PhotoImage(file = r'C:\Users\juuli\OneDrive\Área de Trabalho\decimaterceira.png')
+
+#janela_treze.mainloop()
